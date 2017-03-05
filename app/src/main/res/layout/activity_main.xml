@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="org.sawhers.altafhussain.a02projectstructure.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn1"
+        android:id="@+id/button"
+        android:layout_weight="1"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn2"
+        android:id="@+id/button2"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn3"
+        android:id="@+id/button3"
+        android:layout_weight="1"/>
+        <!-- layout_weight="1" if its value is 1
+         this covrd all the free space avialable to it-->
+    <!-- layout_weight="1" if you wnana to equal size then you need to assign
+    to btn-->
+
+</LinearLayout>
